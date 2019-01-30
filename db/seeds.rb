@@ -16,6 +16,6 @@ end
 end
 =end
 
-100.times do
-    csj = CourseStudentJoin.create!(course_id: rand(1..5), student_id: rand(1..50))
+50.times do |index|
+    Student.find(index+1).update( course_id: rand(1..5))
 end
