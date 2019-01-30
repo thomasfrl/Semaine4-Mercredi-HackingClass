@@ -1,3 +1,3 @@
 class Course < ApplicationRecord
-    has_many :course_student_joins
+    has_many :students
 end
