@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Application terminée
 
-Things you may want to cover:
+### Architecture de la base de donnée
 
-* Ruby version
+Tab Course 1->n Student
 
-* System dependencies
+Pour tester la base
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`Course.find(2).students`
